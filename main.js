@@ -25,3 +25,7 @@ function gotResults(results){
           console.log("nose 'Y' =   " +results[0].pose.nose.y)
      }
 }
+
+function take_snap(){
+     save("YOU ARE A CLOWN.png")
+}
