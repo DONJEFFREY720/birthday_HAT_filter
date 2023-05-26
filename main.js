@@ -3,6 +3,9 @@ function preload(){
 
 }
 
+noseX = 0
+noseY = 0
+
 function setup(){
      canvas = createCanvas(300,300)
      canvas.center()
