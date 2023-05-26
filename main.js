@@ -16,7 +16,7 @@ function setup(){
 
 function draw(){
      image(video,0,0,300,300)
-     image(hat,noseX-200,noseY-200,30,30)
+     image(hat,noseX-200,noseY-300,30,30)
 }
 
 function modeLoaded(){
