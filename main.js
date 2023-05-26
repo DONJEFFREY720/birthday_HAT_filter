@@ -16,14 +16,14 @@ function setup(){
 
 function draw(){
      image(video,0,0,300,300)
-     image(hat,noseX-100,noseY-300,30,30)
+     image(hat,noseX-100,noseY-400,30,30)
 }
 
 function modeLoaded(){
      console.log("model is ready")
 }
 
-function gotResults(results){
+function gotResults(results5{
      if(results.length > 0 ){
           noseX = results[0].pose.nose.x
           noseY = results[0].pose.nose.y
